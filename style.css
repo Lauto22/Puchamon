@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Londrina+Solid:wght@900&display=swap');
+body{
+font-family: 'Londrina Solid', cursive;
+    background-color: #30E3DF;
+}
+#seleccionar-puchamon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    color: #F94A29;
+    font-size: 40px;
+}
+.subtitulo{
+    color: #F94A29;
+    font-size: 28px;
+}
+
+.tarjetas{
+    display: flex;
+    gap: 10px;
+
+}
+.tarjeta-de-puchamon{
+    width: 100px;
+    height: 100px;
+    background: #FCE22A;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta-de-puchamon img{
+    width: 60px;
+    height: 37px;
+
+}
+#boton-puchamon{
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background: #FCE22A;
+    border: 2px solid black;
+    color: black;
+    font-family: 'Londrina Solid', cursive;
+    margin-top: 30px;
+}
+input {
+    display: none;
+}
+
+#seleccionar-ataque{
+    display: flex;
+}
