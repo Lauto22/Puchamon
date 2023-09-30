@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>PUCHAMON</title>
+        <script src="js/Puchamon.js"></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <section id="seleccionar-puchamon"> 
+            <h1 class="titulo" > 🔥💧🌱 PUCHAMON 🔥💧🌱</h1>
+            <h2 class="subtitulo"> Elige tu Puchamon: </h2>
+            <div class="tarjetas"> 
+                <label class="tarjeta-de-puchamon" for="pendertuga">
+                    <p>Pendertuga</p>
+                    <img src="./assets/pendertuga-removebg-preview.png" alt="Pendertuga">
+                </label>
+                <input type = "radio" name="puchamon" id="pendertuga">
+                <label class="tarjeta-de-puchamon" for="pitochu">
+                    <p>Pitochu</p>
+                    <img src="./assets/pitochu-removebg-preview.png" alt="Pitochu">
+                </label>
+                <input type = "radio" name="puchamon" id="pitochu">
+                <label class="tarjeta-de-puchamon" for="motapod">
+                    <p>Motapod</p>
+                    <img src="./assets/motapod-removebg-preview.png" alt="Motapod">
+                </label>
+                <input type = "radio" name="puchamon" id="motapod">
+            </div>
+            
+            <button id="boton-puchamon"> Seleccionar</button>
+        </section>
+        <section id="seleccionar-ataque" >
+            <h1 class="titulo" > 🔥💧🌱 PUCHAMON 🔥💧🌱</h1>
+            
+            <h2> Elige tu ataque </h2>
+
+            <div>
+                <button id="boton-fuego">Fuego 🔥</button>
+                <button id="boton-agua">Agua 💧</button>
+                <button id="boton-hierba">Hierba 🌱</button>
+            </div>
+
+            <div>
+                <section id="mensajes">
+                </section>
+
+                <section id="reiniciar">
+                    <button id="boton-reiniciar"> Reiniciar </button>
+                </section>
+            </body>
+            </div>
+            
+            <div>
+                <p> Tu puchamon <span id="puchamon-jugador"></span> tiene <span id="vidas-jugador">3</span> vidas</p>
+                <p> El puchamon <span id="puchamon-rival"></span> del rival tiene <span id="vidas-rival">3</span> vidas</p>    
+            </div>
+        </section>
+    
+</html>
